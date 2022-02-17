@@ -37,6 +37,7 @@ a , .icon{
     display: flex;
     gap: 20px;
     width: 100%;
+    margin-left: calc(50% - 600px);
 }
 
 .cok {
