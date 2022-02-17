@@ -12,42 +12,12 @@ body {
 }
 @import '../3rd-party/font-awesome.min.css';
 
-.mama {
-    height: 200px;
-    width: 200px;
-    background-color: bisque;
-}
-
-.icon {
-    width: 50px;
-    height: 50px;
-    font-size: 30px;
-    color: black;
-}
-
- /*.fa {
-    line-height: 60px;
-    color: rgb(170, 20, 20);
-    font-size: 50px;
-   background-color: aqua;
-    height: 100px;
-    width: 100px;
-}
-
-.icon {
-    position: absolute;
-    line-height: 50px;
-    font-size: 20px;
-}
-div {
-    position: relative;
-}*/
-
 .footer {
     padding-top: 0;
     text-align: center;
-    color: #fff8;
+    color: rgba(187, 23, 23, 0.533);
     font-size: 16px;
+    background-color: rgb(76, 0, 255);
 }
 .footer > .row {
     display: flex;
@@ -56,25 +26,25 @@ div {
     gap: 10px;
     padding: 20px;
     margin-bottom: 40px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid rgb(22, 21, 21);
 }
 .footer .icon {
     width: 50px;
     height: 50px;
     line-height: 50px;
     font-size: 20px;
-    color: #fff;
+    color: rgb(189, 16, 16);
     text-decoration: none;
     border-radius: 50%;
     transition: all 0.5s;
 }
 .footer .icon:hover {
     text-decoration: none;
-    color: var(--primary-color);
-    background-color: #fff;
+    color: red;
+    background-color: rgb(219, 209, 209);
 }
 .footer a {
-    color: #fff;
+    color: rgb(12, 12, 12);
     text-decoration: none;
 }
 .footer a:hover {
@@ -97,7 +67,7 @@ div {
     display: block;
     width: 2px;
     height: 16px;
-    background-color: #fff8;
+    background-color: rgba(15, 15, 15, 0.533);
     position: absolute;
     top: 50%;
     left: -10px;
@@ -105,4 +75,20 @@ div {
 }
 .footer .bottom-trio > p:first-of-type::before {
     display: none;
+}
+
+.ikonos {
+    color: red;
+}
+
+.ikonos:hover {
+    color: rgb(17, 0, 255);
+}
+
+.ik{
+    color: rgb(17, 0, 255);
+}
+
+.ik:hover {
+    color: red;
 }
